@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editorial Didacos</title>
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./didacos2.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav id="headerMenu">
+        <div>
+          <ul>
+            <li><a href="./index.html">Login</a></li>
+            <li><a href="./libros.html">Carrito</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="header">
+        <a class="image" href="./index.html"
+          ><img src="./img/logo.jpg" alt="logo"
+        /></a>
+      </div>
+      <nav>
+        <ul id="headerMenu">
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./libreria.html">Librería</a></li>
+          <li><a href="./recomendaciones.html">Favoritos</a></li>
+          <li><a href="https://www.google.es/">Acerca de</a></li>
+          <li><a href="https://www.google.es/">Dónde encontrarnos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="mainheader">
+        <hr />
+        <h4>Realiza tu búsqueda</h4>
+        <hr />
+      </div>
+
+      <div id="headerBuscador">
+        <input
+          id="buscador"
+          type="text"
+          placeholder="Encuentra el libro que estás buscando"
+        />
+        <button id="botonBuscar" onclick="dameLibros()">BUSCAR</button>
+      </div>
+
+      <div id="resultadosBusqueda"></div>
+      <div id="parrafo"></div>
+
+
+      <footer>
+        <div class="footerApartados">
+          <h4>Nuestra empresa</h4>
+          <a href="https://www.google.es/">Sobre nosotros</a><br />
+          <a href="#">Aviso legal y condiciones particulares</a
+          ><br />
+          <a href="#">Política de Cookies</a><br />
+        </div>
+        <div class="footerApartados">
+          <h4>Más de Didacos</h4>
+          <a href="https://www.google.es/">Trabaja con nosotros</a><br />
+          <a href="https://www.google.es/">Publica con nosotros</a><br />
+          <a href="https://www.google.es/">Preguntas frecuentes</a><br />
+        </div>
+        <div class="footerApartados">
+          <h4>Métodos de pago</h4>
+          <img src="./img/pago3.png" />
+        </div>
+      </footer>
+
+    <script src="./demo.js"></script>
+  </body>
+</html>
